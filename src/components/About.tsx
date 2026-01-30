@@ -1,5 +1,3 @@
-import about from "../assets/about.png";
-
 const About = ({ darkMode }: { darkMode: boolean }) => {
   return (
     <section
@@ -20,7 +18,7 @@ const About = ({ darkMode }: { darkMode: boolean }) => {
               data-aos-delay="600"
             >
               <img
-                src={about}
+                src="https://thumbs.dreamstime.com/b/friendly-cartoon-boy-character-waving-hello-digitally-rendered-d-model-design-isolated-white-background-cheerful-young-404087363.jpg"
                 alt="About Image"
                 className="absolute inset-0 w-full h-full object-cover z-10 transition-all duration-300"
                 data-aos="zoom-in"
